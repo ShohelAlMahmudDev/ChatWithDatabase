@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "8501:8501"
+    environment:
+      - MYSQL_HOST=mysql
+      - MYSQL_USER=myuser
+      - MYSQL_PASSWORD=mypassword
+      - MYSQL_DB=mydatabase
+    depends_on:
+      - mysql
+    volumes:
+      - .:/app
+
+  mysql:
+    image: mysql:8.0
+    ports:
+      - "3307:3306"  # Use a different port on the host
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpassword
+      MYSQL_DATABASE: mydatabase
+      MYSQL_USER: myuser
+      MYSQL_PASSWORD: mypassword
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+volumes:
+  mysql_data:
