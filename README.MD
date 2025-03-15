@@ -14,33 +14,13 @@ Docker Support: Fully containerized using Docker and docker-compose.
 
 MySQL Integration: Works with a MySQL database for querying and data retrieval.
 
-🏗️ Project Structure
-
-📂 chat-with-db-app
-│── 📂 app                # Application code
-│   │── app.py           # Main Streamlit app
-│   │── db_connector.py   # Database connection logic
-│   │── sql_query_chain.py  # Query generation and execution logic
-│   │── utils.py          # Helper functions (SQL extraction, error handling)
-│
-│── 📂 config             # Configuration files
-│   │── .env.example      # Environment variables example file
-│
-│── 📂 docker             # Docker setup
-│   │── Dockerfile        # App Dockerfile
-│   │── docker-compose.yml # Multi-container setup with MySQL
-│
-│── 📂 requirements       # Dependencies
-│   │── requirements.txt  # Python package dependencies
-│
-│── README.md             # Documentation
 
 ⚙️ Installation & Setup
 
 1️⃣ Clone the Repository
 
-git clone https://github.com/your-username/chat-with-db-app.git
-cd chat-with-db-app
+git clone https://github.com/ShohelAlMahmudDev/ChatWithDatabase.git
+cd ChatWithDatabase
 
 2️⃣ Setup Environment Variables
 
@@ -51,7 +31,6 @@ MYSQL_PASSWORD=root
 MYSQL_HOST=db  # Use 'db' when running in Docker, 'localhost' otherwise
 MYSQL_DB=my_database
 DEEPSEEK_API_KEY=your_deepseek_api_key
-OPENAI_API_KEY=your_openai_api_key
 
 3️⃣ Install Dependencies
 
