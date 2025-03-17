@@ -1,4 +1,4 @@
-## Chat with Database App
+# Chat with Database App
 
 This project is a Streamlit-based AI-powered SQL query application that allows users to interact with a MySQL database using natural language. The app uses LangChain, OpenAI, and DeepSeek API to generate and execute SQL queries dynamically.
 
