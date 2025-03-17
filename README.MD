@@ -1,8 +1,8 @@
-Chat with Database App
+##Chat with Database App
 
 This project is a Streamlit-based AI-powered SQL query application that allows users to interact with a MySQL database using natural language. The app uses LangChain, OpenAI, and DeepSeek API to generate and execute SQL queries dynamically.
 
-🚀 Features
+##Features
 
 Natural Language to SQL Conversion: Users can ask database-related questions in natural language, and the app will generate SQL queries.
 
@@ -15,7 +15,7 @@ Docker Support: Fully containerized using Docker and docker-compose.
 MySQL Integration: Works with a MySQL database for querying and data retrieval.
 
 
-⚙️ Installation & Setup
+##Installation & Setup
 
 1️⃣ Clone the Repository
 
