@@ -119,9 +119,11 @@ This project is MIT licensed. Feel free to use and modify it as needed.
 
 ## Future Improvements
 
-✅ Add support for PostgreSQL and other databases ✅ Implement authentication for secure API access ✅ Enhance query optimization and result visualization
+* Add support for PostgreSQL and other databases 
+* Implement authentication for secure API access 
+* Enhance query optimization and result visualization
 
 ### Contributing
 
-We welcome contributions! Feel free to fork this repo and submit PRs. 😊
+We welcome contributions! Feel free to fork this repo and submit PRs.
 
